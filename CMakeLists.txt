@@ -3,4 +3,4 @@ project(testproject C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(testproject examples/funcction_pointer.c)
+add_executable(testproject function_pointer.c)
