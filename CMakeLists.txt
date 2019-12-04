@@ -10,7 +10,7 @@ add_executable(function_pointer src/function_pointer/main.c src/function_pointer
 
 #-----------------------------------------------------------------------------------------------------------------------
 project(parallel_computation C)
-add_executable(parallel_computation src/parallel_computation/main.c src/parallel_computation/parallel_computation.c src/parallel_computation/parallel_computation.h)
+add_executable(parallel_computation src/parallel_computation/main.c src/parallel_computation/pi_parallel_computation.c src/parallel_computation/pi_parallel_computation.h)
 
 target_link_libraries(parallel_computation -lpthread)
 #-----------------------------------------------------------------------------------------------------------------------

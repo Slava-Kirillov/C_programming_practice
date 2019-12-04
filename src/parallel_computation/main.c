@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <pthread.h>
 #include <unistd.h>
-#include "parallel_computation.h"
+#include "pi_parallel_computation.h"
 
 /*
  * Вычисление числа Пи, используя несколько потоков

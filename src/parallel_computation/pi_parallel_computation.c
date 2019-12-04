@@ -1,4 +1,4 @@
-#include "parallel_computation.h"
+#include "pi_parallel_computation.h"
 
 double f(double x) {
     return 1 / (1 + x * x);
