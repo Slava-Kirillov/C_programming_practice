@@ -4,6 +4,9 @@
 #include <unistd.h>
 #include "parallel_computation.h"
 
+/*
+ * Вычисление числа Пи, используя несколько потоков
+ */
 int main() {
 
     int n;
